@@ -1,0 +1,17 @@
+{
+    "Education": {
+    "formalEducation": [],
+    "otherCertification": [],
+    "sportEducation": []
+  },
+  "Experience": {
+    "experienceAsPlayer": [],
+    "workExperience": []
+  },
+            "HeaderDetails": {
+                    "designation": " ",
+                    "acamedy": " ",
+                    "location": "",
+                    "description": " "
+                    }      
+}

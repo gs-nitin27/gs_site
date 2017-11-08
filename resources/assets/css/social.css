@@ -1,0 +1,103 @@
+#fixedsocial {
+    top:30%;
+    height:200px;
+    width:60px;
+    position:fixed;
+    right: 0;
+}
+
+.fb-share-button {
+
+    height:50px;
+    width:50px;
+   transition:ease 500ms;
+    background-size:50px;
+    opacity:1;
+}
+
+.fb-share-button:hover {
+
+    height:50px;
+    width:50px;
+    background-size:60px;
+    opacity:0.5;
+    transition:ease 500ms;
+    margin-left:-20px;
+    width:70px;
+
+}
+.linkedinflat
+{
+    height:50px;
+    width:50px;
+    transition:ease 500ms;
+    background-size:50px;
+    opacity:1;
+
+}
+.linkedinflat:hover {
+    height:50px;
+    width:50px;
+    background-size:60px;
+    opacity:0.5;
+    transition:ease 500ms;
+    margin-left:-20px;
+    width:70px;
+}
+
+.twitterflat {
+    height:50px;
+    width:50px;
+    transition:ease 500ms;
+    background-size:50px;
+    opacity:1;
+}
+
+.twitterflat:hover {
+    height:50px;
+    width:50px;
+    background-size:60px;
+    opacity:0.5;
+    transition:ease 500ms;
+    margin-left:-20px;
+    width:70px;
+}
+
+.g-plusflat
+{
+    height:50px;
+    width:70px;
+    transition:ease 500ms;
+    background-size:50px;
+    opacity:1;
+
+}
+.g-plusflat:hover {
+    height:50px;
+    width:50px;
+    background-size:60px;
+    opacity:0.5;
+    transition:ease 500ms;
+    margin-left:-20px;
+    width:70px;
+}
+
+
+.pin
+{
+    height:50px;
+    width:70px;
+    transition:ease 500ms;
+    background-size:50px;
+    opacity:1;
+
+}
+.pin:hover {
+    height:50px;
+    width:50px;
+    background-size:60px;
+    opacity:0.5;
+    transition:ease 500ms;
+    margin-left:-20px;
+    width:70px;
+}
