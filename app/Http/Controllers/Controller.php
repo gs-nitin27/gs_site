@@ -10,12 +10,5 @@ use Illuminate\Foundation\Auth\Access\AuthorizesResources;
 class Controller extends BaseController
 {
     use AuthorizesRequests, AuthorizesResources, DispatchesJobs, ValidatesRequests;
-   public function test()
-	{   
-		echo "No Data";die;
-		
-		//return View::make('home');
-	}
-
-    
+       
 }

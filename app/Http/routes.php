@@ -12,12 +12,18 @@
 |
 */
 
-//Route::get('data', ['uses' => 'PhotoController@test', 'as' => 'name']);
 
 
 
+Route::get('articles','HomeController@getArticles');
 
-Route::get('data','PhotoController@test');
+Route::get('event_tour','HomeController@getEvent_Tour');
+
+Route::get('job','HomeController@getJob');
+
+Route::get('/','HomeController@index');
+
+
 
 
 ?>

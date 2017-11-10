@@ -1,13 +1,21 @@
 
 function getResources()
 { 
-    //alert('amit');
+    
    $.ajax({
-    url:"http://liveapp.getsporty.in/getSportyLite/litecontroller.php?act=blog_api&token_id=dhs2016&token=0,1,3",crossDomain: true ,success: function(result)
+
+method: 'GET',
+url:"/gs_site/public/articles",crossDomain: true ,success: function(result)
+ //url:"http://liveapp.getsporty.in/getSportyLite/litecontroller.php?act=blog_api&token_id=dhs2016&token=0,1,3",crossDomain: true ,success: function(result)
     {
         $( "#img1" ).hide();
         data = JSON.parse(result);
         data = data.data;
+
+       // console.log(data);
+
+        
+
         var resources_temp ='';
         var res_url = '';
         var title   = ''; 
@@ -75,10 +83,21 @@ function GetSortOrder(prop) {
 function getEvent()
 {
  $.ajax(
-   {url: "http://liveapp.getsporty.in/getSportyLite/litecontroller.php?act=event_and_tour_api",crossDomain: true ,success: function(result)
+   {
+
+
+
+method: 'GET',
+url:"/gs_site/public/event_tour",crossDomain: true ,success: function(result)
+
+
+    //url: "http://liveapp.getsporty.in/getSportyLite/litecontroller.php?act=event_and_tour_api",crossDomain: true ,success: function(result)
        {
        data = JSON.parse(result);
         data = data.data;
+
+
+        console.log(data);
 
        data.sort(GetSortOrder("date_diff"));
 
